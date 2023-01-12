@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Temp</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@200;300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@200;300;400&family=Spartan:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="lanStyle.css">
+</head>
+
+<body>
+
+    <div class="container header">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-sm-1">
+                        <img src="https://img.icons8.com/nolan/48/registry-editor.png"/>
+                    </div>
+                    <div class="col-sm">Sorting Algorithm Visualizer</div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="row">
+                    <div class="col-sm">
+                        <button class=" btn btn-outline-success Bubble_Sort">Bubble Sort</button>
+                    </div>
+                    <div class="col-sm">
+                        <button class=" btn btn-outline-primary Merge_Sort">Merge Sort</button>
+                    </div>
+                    <div class="col-sm">
+                        <button class=" btn  btn-outline-success heap_Sort">Heap Sort</button>
+                    </div>
+                    <div class="col-sm">
+                        <button class=" btn btn-outline-primary Insert_Sort">Insertion Sort</button>
+                    </div>
+                    <div class="col-sm">
+                        <button class=" btn btn-outline-secondary" onClick="window.location.reload();">Refresh Page</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm arr_label">
+                        <label for="arr_length"><Strong>Enter Length Of Array:</Strong></label><br>  </label>
+                        <input type="number" id="arr_length" value="30" >
+                    </div>
+                    <div class="col-sm arr_label">
+                        <div class="speed"><strong>Speed</strong></div>
+                        <input id="speed" type="range" min="150" max="500" step="5" value="30">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="landing">
+        <h4>Let's Visualize some<br> Sorting Algorithms:)</h4>
+        <img src="./image/concept.png" alt="" id="manimage">
+
+    </section>
+    <!-- <header id="header">
+        <div id="navbar">
+            <a href="#landing" class="logo"><img src="https://img.icons8.com/nolan/48/registry-editor.png"/></a>
+            <p id="head-text">Sorting Algorithm Visualizer</p>
+
+            <ul>
+                <li><a href="#bubble">Bubble</a></li>
+                <li><a href="#selection">Selection</a></li>
+                <li><a href="#insertion">Insertion</a></li>
+                <li><a href="#heap">Heap</a></li>
+                <li><a href="#quick">Quick</a></li>
+                <li><a href="#merge">Merge</a></li>
+            </ul>
+        </div>
+    </header> -->
+
+    <!-- <section id="bubble">Bubble
+        <br>
+
+        <div class="complexity">
+            Complexity
+        </div>
+    
+        </div>
+    </section>
+    <section id="selection">Selection
+        <div class="complexity">
+            Complexity
+        </div>
+
+    </section>
+    <section id="insertion">Insertion
+        <div class="complexity">
+            Complexity
+
+        </div>
+
+    </section>
+    <section id="heap">Heap
+        <div class="complexity">
+            Complexity
+        </div>
+
+    </section>
+    <section id="quick">Quick
+        <div class="complexity">
+            Complexity
+        </div>
+
+    </section>
+    <section id="merge">Merge
+        <div class="complexity">
+            Complexity
+        </div>
+
+    </section> -->
+
+
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <script src="" async defer></script>
+</body>
+
+</html>

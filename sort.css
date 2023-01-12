@@ -1,0 +1,76 @@
+
+body{
+    background: linear-gradient(90deg,#ff5edf,#57dede 110%) ;
+}
+.heading{
+    margin: 0 auto 0 auto;
+    width: 50%;
+    /* border: 3px solid rgb(163, 221, 145); */
+    padding: 4rem;
+    text-align: center;
+    font-weight: 800;
+    font-family:cursive;
+}
+.cntcanvas{
+    margin-top:100px;
+}
+.lower{
+    height:100vh;
+}
+#myCanvas{
+    border-radius: 2%;
+    background-color: white !important;
+}
+#arr_length{
+    border-radius: 10px;
+    height:2rem;
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+}
+.btn{
+    /* background-color: rgb(211, 250, 213) !important; */
+    font-size: 1em;
+    font-weight: 550;
+    border-style: none;
+    /* padding:1rem !important; */
+}
+.row{
+    padding:0.3rem;
+}
+strong{
+    padding:1rem 1rem 1rem 0rem;
+    justify-content: center;
+    text-align: center;
+}
+.arr_label{
+    display:flex;
+    flex-direction: row;
+    font-size:1.2rem;
+    padding-bottom:1rem;
+}
+#speed{
+    width:20rem;
+    height:2rem;
+    text-align: center ;
+}
+.info{
+    font-size:1.1rem;
+    font-family: ui-monospace;
+}
+/* .line{
+    width: 200px;
+    height: 15px;
+    border-bottom: 5px solid rgb(27, 216, 223);
+    margin-bottom:  15px;
+    position: absolute;
+}
+.point {
+    position: absolute;
+    left:30px;
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  } */

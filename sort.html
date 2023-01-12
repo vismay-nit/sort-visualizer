@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sort</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="sort.css"> -->
+    <link rel="stylesheet" href="lanStyle.css">
+    <link rel="stylesheet" href="sort.css">
+</head>
+<body>
+    <!-- <h1 class="heading">
+        Sorting Algorithm Visualizer
+    </h1> -->
+    <div class="container header">
+        <div class="row">
+            <div class="col-4">
+                <div class="row">
+                    <div class="col-sm-2 logo">
+                        <img src="https://img.icons8.com/nolan/48/registry-editor.png"/>
+                    </div>
+                    <div class="col-sm " id="head-text">Sorting Algorithm Visualizer</div>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="row">
+                    <div class="col">
+                        <button class=" btn btn-outline-success Bubble_Sort">Bubble</button>
+                    </div>
+                    <div class="col">
+                        <button class=" btn btn-outline-primary Merge_Sort">Merge</button>
+                    </div>
+                    <div class="col">
+                        <button class=" btn  btn-outline-success heap_Sort">Heap</button>
+                    </div>
+                    <div class="col">
+                        <button class=" btn btn-outline-primary Insert_Sort">Insertion</button>
+                    </div>
+                    <div class="col">
+                        <button class=" btn  btn-outline-success select_Sort">Selection</button>
+                    </div>
+                    <div class="col">
+                        <button class=" btn btn-outline-primary quick_Sort">Quick</button>
+                    </div>
+                    <!-- <div class="col-sm">
+                        <button class=" btn btn-outline-secondary" onClick="window.location.reload();">Refresh Page</button>
+                    </div> -->
+                </div>
+                <div class="row">
+                    <div class="col-sm arr_label">
+                        <label for="arr_length"><Strong>Enter Length Of Array:</Strong></label><br>  </label>
+                        <input type="number" id="arr_length" value="30" >
+                    </div>
+                    <div class="col-sm arr_label">
+                        <div class="speed"><strong>Speed</strong></div>
+                        <input id="speed" type="range" min="150" max="500" step="5" value="30">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container middle_section">
+        <!-- <section id="landing">
+            <h4>Let's Visualize some<br> Sorting Algorithms:)</h4>
+            <img src="./image/concept.png" alt="" id="manimage">
+        </section> -->
+        <section id="landing">
+            <div class="row">
+                <h4 class="col-sm sometext">Let's Visualize some<br> Sorting Algorithms:)</h4>
+                <img class="col-sm  pic" src="./image/concept.png" alt="" id="manimage">
+            </div>
+        </section>
+
+    </div>  
+
+    <div class="container lower">
+        <div class="cntcanvas">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="canvas">
+                        <!-- <canvas id="myCanvas" width="800" height="800" style="border:1px solid #d3d3d3;"></canvas> -->
+                    </div>
+                </div>
+                <div class="col-sm ">
+                    <div class="about info">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="init.js"></script>
+    <script src="heap.js"></script>
+    <script src="Merge.js"></script>
+    <script src="Insertion.js"></script>
+    <script src="Bubble.js"></script>
+    <script src="selection.js"></script>
+    <script src="quick.js"></script>
+    <script src="about_sec.js"></script>
+    <script src="can.js"></script>
+</body>
+</html>
